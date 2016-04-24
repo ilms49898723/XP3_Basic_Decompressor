@@ -5,7 +5,7 @@ project(XP3_Decompressor)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Os -Wall")
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -std=c++11 -Wall")
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp zpipe.cpp zpipe.h)
 
 add_library(zlib STATIC IMPORTED)
 
