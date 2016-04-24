@@ -1,4 +1,4 @@
-# XP3_Decompressor
+# XP3_Basic_Decompressor
 (very) basic xp3 decompressor
 
 very basic xp3 decompressor
