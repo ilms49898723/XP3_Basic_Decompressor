@@ -29,7 +29,7 @@ std::string getFilepath(const std::string& filename);
 
 int main(int args, const char** argv) {
     setlocale(LC_ALL, "ja_JP.UTF-8");
-    if (args == 1 && (!strcmp(argv[1], "-h") || !strcmp(argv[1], "-help") || !strcmp(argv[1], "--help"))) {
+    if (args == 2 && (!strcmp(argv[1], "-h") || !strcmp(argv[1], "-help") || !strcmp(argv[1], "--help"))) {
         fprintf(stderr, "usage: %s <xp3 input file name> <output directory name>\n", argv[0]);
         exit(EXIT_SUCCESS);
     }
